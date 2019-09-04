@@ -12,8 +12,8 @@ public class MeuPrimeiroProjetoSpringApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MeuPrimeiroProjetoSpringApplication.class, args);
-		System.out.println("Alteramos o aqruivo");
-		System.out.println("de mode que não precisemos configurar agora a fonte de dados");
+		System.out.println("Alteramos o arquivo application.properties ");
+		System.out.println("de modo que não precisemos configurar agora a fonte de dados do MySQL ");
 	}
 
 	@Bean
@@ -26,4 +26,5 @@ public class MeuPrimeiroProjetoSpringApplication {
 			System.out.println("Senha válida: " + SenhaUtils.senhaValida("123456", senhaEncoded));
 		};
 	}
+
 }
